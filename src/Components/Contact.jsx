@@ -16,11 +16,10 @@ import Bg from "../assets/lastbg.png";
 const Contact = () => {
   return (
     <div className="relative w-full">
-      <img src={Bg} alt="Background" className="w-full h-[35vh] object-cover opacity-80" />
+      {/* <img src={Bg} alt="Background" className="w-full h-[35vh] object-cover opacity-80" /> */}
       
-      <div className="absolute inset-0">
-
-        <div className="flex flex-col md:flex-row text-white px-6 md:px-10 py-10">
+      <div className="relative bg-black text-white py-10 px-6 md:px-10">
+        <div className="flex flex-col md:flex-row">
           <div className="flex-1 mb-6 md:mb-0">
             <div className="flex items-center mb-4">
               <MdFlightTakeoff
@@ -91,9 +90,9 @@ const Contact = () => {
           </div>
         </div>
 
-        <hr className="mt-7 opacity-25 mx-2" />
+        <hr className="my-7 opacity-25" />
         
-        <div className="text-white flex flex-col md:flex-row justify-between mt-3 px-2 mx-6 text-center md:text-left">
+        <div className="text-white flex flex-col md:flex-row justify-between mt-3 text-center md:text-left">
           <p>&copy; RRDevs 2024! All RIGHTS RESERVED</p>
           <div className="flex gap-4 mt-4 md:mt-0 justify-center md:justify-start">
             <p>Terms & Service</p>
@@ -101,7 +100,6 @@ const Contact = () => {
             <p>Contact Us</p>
           </div>
         </div>
-        
       </div>
     </div>
   );
