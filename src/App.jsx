@@ -13,8 +13,9 @@ const App = () => {
         <Hero/>
         <About/>
         <Service/>
+        <Contact/>
       </main>
-      <Contact/>
+     
 
 
     </div>
